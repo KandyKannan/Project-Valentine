@@ -69,38 +69,4 @@ button:hover {
 }
 
 
-/* Styles for larger screens (laptops and desktops) */
-@media (min-width: 768px) {
-    h1 {
-        font-size: 3em; /* Larger heading on desktop */
-        text-align: left; /* Align left on desktop */
-    }
 
-    form {
-        width: 500px; /* Back to original width on desktop */
-        margin: 50px auto; /* Increased margin on desktop */
-    }
-
-    input[type="text"] {
-        padding: 8px; /* Original padding on desktop */
-        margin-bottom: 10px; /* Original margin on desktop */
-        font-size: 1em; /* Back to original font size */
-    }
-
-    button {
-        padding: 10px 15px; /* Original padding on desktop */
-        font-size: 1em; /* Back to original font size */
-        width: auto; /* Button width adjusts to content */
-    }
-}
-
-
-/* Very large screens (optional) */
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 4em; /* Even larger heading */
-    }
-    form {
-      width: 600px;
-    }
-}
